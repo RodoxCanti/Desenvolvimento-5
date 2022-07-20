@@ -1,0 +1,71 @@
+var
+R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14 : caractere
+
+escreva("O meio de transporte é terrestre?")
+leia(R1)
+se (R1 = sim) entao
+escreva("Possui motor?")
+leia(R2)
+senao
+escreva("O veículo é uma bicicleta")
+se (R2 = sim) entao
+escreva("Possui 2 rodas?")
+leia(R3)
+se (R3 = sim) entao
+escreva("O veículo é uma moto!")
+senao
+escreva("Carrega grandes cargas?")
+leia(R4)
+senao
+escreva("O veículo é um carro de passeio!")
+se (R4 = sim) entao
+escreva("O veiculo e sobre trilhos?")
+leia(R5)
+se (R5 = sim) entao
+escreva("O veiculo é um trem/metrô!")
+senao
+escreva("remover entulhos?")
+leia(R6)
+se (R6 = sim) entao
+escreva ("O veiculo é um trator!")
+senao
+escreva ("O veiculo é um caminhão!")
+leia(R7)
+senao
+escreva("Esse meio de transporte é aéreo?")
+leia(R8)
+se (R8 = Sim) então
+escreva("Precisa pular?")
+leia(R9)
+se (R9 = Sim) então
+escreva("Você pensou no PARAQUEDAS!")
+senao
+escreva("É devagar?")
+leia(R10)	
+se (R10 = Sim) então
+escreva("Você pensou no BALÃO!")
+senao
+escreva("Possui asas fixas?")
+leia(R11)	
+se (R11 = Sim) então
+escreva("Você pensou no AVIÃO!")
+senao
+escreva("Você pensou no HELICÓPTERO!")
+senao 
+escreva("É coberto por água?")
+leia(R12)
+se (R12 = Sim) então
+escreva("Você pensou no SUBMARINO!")
+senao
+escreva("Possui vela?")
+leia(R13)	
+se (R13 = Sim) então
+escreva("Você pensou no BARCO!")
+senao
+escreva("Possui grande porte e altura?")
+leia(R14)	
+se (R14 = Sim) então
+escreva("Você pensou no NAVIO!")
+senao
+escreva("Você pensou na LANCHA")
+fimse
